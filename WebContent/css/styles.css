@@ -1,0 +1,300 @@
+@CHARSET "ISO-8859-1";
+body {
+	margin: 0px;
+    font-family: sans-serif;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+.nav {
+    padding: 30px 0px;
+    background-color: #3fc1c9;
+    position: relative;
+}
+
+.nav-item {
+	position: absolute;
+	right: 0;
+	top: 30%;
+}
+
+.nav-index {
+	text-decoration: none;
+	color: #364f6b;
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 17px;
+}
+
+.heading {
+	text-align: center;
+	margin-top: 100px;
+	display: inline-block;
+	font-size: 45px;
+	color: #364f6b;
+}
+
+.container-heading {
+	text-align: center;
+	padding: 60px 0px;
+}
+
+.layer {
+	background-color: rgba(40, 93, 153, 0.5);;
+    position:absolute;
+    height: 100%;
+	width:100%;
+	top: 0;
+	bottom: 0;
+}
+
+.heading-index {
+	text-align: center;
+	margin-top: 100px;
+	display: inline-block;
+	font-size: 45px;
+	color: white;
+}
+
+.container-background {
+	position: relative;
+	background-image: url("../image/NXU.jpg");
+	text-align: center;
+	padding: 10% 0px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.container-item {
+	text-align: center;
+	margin-top: 8%;
+}
+
+.login-page {
+	color: white;
+	display: inline-block;
+	background-color: #3fc1c9;
+	padding: 2% 12%;
+	margin-right: 20px;
+	-webkit-box-shadow: 6px 6px 19px 0px rgba(163,163,163,1);
+	-moz-box-shadow: 6px 6px 19px 0px rgba(163,163,163,1);
+	box-shadow: 6px 6px 19px 0px rgba(163,163,163,1);
+}
+
+.input-login {
+	padding: 10px 5px;
+	border: 0;
+}
+
+.login-icon {
+	 padding: 10px;
+	 text-align: center;
+	 background-color: white;
+	 color: #2e5b8f;
+}
+
+.btn-login {
+    margin-top: 4%;
+    padding: 8px 40%;
+    cursor: pointer;
+    border: 0;
+    background-color: #2e5b8f ;
+    color: white;
+}
+
+.btn-login:hover {
+	background-color: #364f6b
+}
+
+.item{
+	display: inline-block;
+	background-color: #fc5185;
+	margin-right: 20px;
+	-webkit-box-shadow: 6px 6px 19px 0px rgba(163,163,163,1);
+	-moz-box-shadow: 6px 6px 19px 0px rgba(163,163,163,1);
+	box-shadow: 6px 6px 19px 0px rgba(163,163,163,1);
+	padding: 30px;
+}
+
+.item:hover {
+	background-color: #c9406a;	
+}
+
+.link {
+	text-decoration: none;
+	color: #f5f5f5;
+	font-weight: bold;
+}
+
+.container-list {
+	text-align: center;
+}
+
+table {
+	margin: 0 auto; 
+	width: 85%;
+}
+
+.odd {
+	background-color: #f5f5f5;
+}
+
+.even {
+	background-color: white;
+	color: black;
+}
+
+.footer {
+	width: 100%;
+	margin-top: 15%;
+	padding: 5px 0;
+	background-color: #3fc1c9;
+}
+
+.footer.footer-index {
+	margin-top: 8%;
+}
+
+
+.footer p {
+	margin-left:30px;
+	color: white;
+}
+
+.input-form {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.label {
+	color: #364f6b;
+	margin-right: 50px;
+}
+
+.button {
+	transition-duration: 0.4s;
+}
+
+.btn-primary {
+	background-color: white;
+  	color: black;
+  	border: 2px solid #fc5185; 
+  	cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #fc5185; 
+  color: white;
+}
+
+.input-item {
+	margin-bottom: 10px;
+}
+
+.input-name {
+	margin-left: 100px;
+}
+
+.input-number {
+	margin-left: 26px;
+}
+
+.input-majors {
+	margin-left: 95px;
+}
+
+.input-faculty {
+	margin-left: 91px;
+}
+
+.input-image {
+	margin-left: 98px;
+}
+.input-container {
+	margin-top: 10px
+}
+.input-button {
+	margin-left: 195px;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.input-login-container {
+	display: flex;
+	margin-top: 5%;
+}
+
+.container-detail {
+	margin-left: 200px;
+	position: relative;
+}
+
+.detail-image {
+	position: absolute;
+}
+
+.detail-item {
+	margin-left: 140px;
+	font-size: 18px;
+}
+
+.grade-item {
+	margin: 60px auto 0 200px;
+	font-size: 20px;
+	width:50%;
+	text-align: center;
+}
+
+.container-grade {
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 25%;
+}
+
+input.input-edit {
+  border: none;
+  border-bottom: 2px solid #364f6b;
+}
+
+.edit-submit {
+	position: relative;
+	display: flex;
+}
+
+.submit-cancel {
+	margin-left: 45%;
+}
+
+.submit-save {
+	margin-left: 1%
+}
+
+.btn-cancel {
+	background-color: white;
+  	color: black;
+  	border: 2px solid #eb094e; 
+  	cursor: pointer;
+}
+
+.btn-cancel:hover {
+  background-color: #eb094e; 
+  color: white;
+}
+
+.btn-save {
+	background-color: white;
+  	color: black;
+  	border: 2px solid #328dc9; 
+  	cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: #328dc9; 
+  color: white;
+}
+
+.container-course {
+	margin: 5% auto 0 35%;
+}
